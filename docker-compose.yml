@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  php74:
+    build:
+      context: resources/docker
+    image: php74-ffi
+    volumes:
+      - .:/app
